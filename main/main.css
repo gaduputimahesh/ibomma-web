@@ -1,0 +1,146 @@
+
+body{
+    padding: 0px;
+    margin: 0;
+    background-color: black;
+    
+    
+}
+nav{
+    background-color: #121413;
+    width: 100%;;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position:sticky;
+    top:0px;
+}
+
+
+.pic img{
+    width: 80px;
+    margin-left: 30px;
+    height:80px;
+    border-radius: 20px;
+    
+    
+}
+.menu i{
+    color:black;
+    font-size: 30px;
+    position: absolute;
+    right:50px;
+    top:32px;
+    border: 2px solid yellow;
+    padding: 5px;
+    background-color: yellow;
+    
+}
+.menu i:hover{
+    background-color: black;
+    color:aliceblue;
+    border: white;
+}
+.items{
+    border: 1px solid transparent;
+    display: none;
+    flex-direction: column;
+    gap:30px;
+    width:100%;
+    align-items: center;
+    background-color: rgba(3, 0, 4, 0.927);
+}
+.items a{
+    font-size:24px;
+    border: 0.5px solid black;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.items a:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+
+.items{
+    transition: all 2s;
+}
+.content{
+    color:white;
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+}
+.content h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card1 p{
+    color: white;
+    color: yellow;
+    font-size: 16px;
+}
+.card1 img{
+    border-radius: 14px;
+    
+}
+.card1{
+    margin:15px;
+}
+section{
+    
+    width: 100%;;
+    display: flex;
+    justify-content:center;
+    gap:20px;
+    height: 100%;
+    flex-wrap: wrap;
+    overflow:hidden;
+    
+}.card1 img{
+    width:250px;
+    height:250px;
+    
+}
+.card1:hover{
+    animation: a 2s;
+    
+}
+@keyframes a{
+    10%{transform: scale(0.9,0.9);}
+}
+.search {
+    color: white;    
+    background-color:rgb(50, 50, 50);
+    height: 400px;text-align: center;
+    display: block;
+    margin-top: 20px;
+    padding: 20px;
+}
+.search input{
+     width:50%;
+     height: 40px;
+     border-radius: 20px;
+     font-size: 20px;
+}
+
+.search p{
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.search i{
+    width: 40px;
+    font-size:30px;
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    border-radius:50%;
+    margin-top:20px;
+    height:40px;
+}
+
